@@ -40,7 +40,15 @@
     <p>{{x}}</p>
     {%endfor%} {% endcomment %}
     <p>Django Template Tag</p>
-    <p>Length: {{name| length}}
+    <p>Length: {{name| length}}</p>
+    <p>capfirst: {{name| capfirst}}</p>
+    <p>Upper: {{name| upper}}</p>
+    <p>Lower: {{name| lower}}</p>
+    <p>Center: {{name| center:"2"}}</p>
+    <p>Slice: {{name| slice:" "}}</p>
+    <p>Join: {{name| join:"-"}}</p>
+
+        
 
 </body>
 
