@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- <h1>Hello Rakib How are you</h1> -->
+
+    <ul style="display: flex;">
+        <li style="border: 1px solid black;border-radius: 5px;margin: 2px;padding: 2px 4px;list-style-type: none;;">
+            <a href="/">Home</a>
+        </li>
+        <li style="border: 1px solid black;border-radius: 1%;margin: 2px;padding: 2px 4px;list-style-type: none;">
+            <a href="/myapp">Products</a>
+        </li>
+        <li style="border: 1px solid black;border-radius: 1%;margin: 2px;padding: 2px 4px;list-style-type: none;">
+            <a href="/myapp/a">About</a>
+        </li>
+        <li style="border: 1px solid black;border-radius: 1%;margin: 2px;padding: 2px 4px;list-style-type: none;">
+            Contact</li>
+        <li style="border: 1px solid black;border-radius: 1%;margin: 2px;padding: 2px 4px;list-style-type: none;">
+            Registration</li>
+        <li style="border: 1px solid black;border-radius: 1%;margin: 2px;padding: 2px 4px;list-style-type: none;">Login
+        </li>
+    </ul>
+
+    <h1>Home Page</h1>
+    <p>Conditional Statements</p>
+
+    {{salary}}
+    {%if salary >= '10000'%}
+    <h1>Congratulation You can M</h1>
+    {%endif%}
+    {% comment %} {%for x in range(0,20)%}
+    <p>{{x}}</p>
+    {%endfor%} {% endcomment %}
+    <p>Django Template Tag</p>
+    <p>Length: {{name| length}}
+
+</body>
+
+</html>
